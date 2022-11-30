@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.question-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    
+}
+
+.question-container, .option-container {
+    text-align: center;
+}
+
+.option-container button {
+    background-color: cadetblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+
+.option-container button:hover {
+    background-color: white;
+    color: cadetblue;   
+}
+
+a.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.acoes {
+    text-align: center;
+    margin-top: 20px;
+}
